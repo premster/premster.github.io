@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="wt8.css" rel="stylesheet">
+<link href="Contact.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<link rel="stylesheet" href="leaflet/leaflet.css">
+<script src="leaflet/leaflet.js"></script>
+<script src="leaflet/leaflet-providers.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
+var leafletMap = L.map('Extension1').setView([13.027770, 77.762114], 12);
+L.tileLayer.provider("OpenStreetMap.Mapnik", 
+{
+   retina: true,
+   apikey: ""
+}).addTo(leafletMap);
+
+var blueIcon = new L.Icon({
+    iconUrl: './leaflet/images/marker-icon-2x.png',
+    shadowUrl: './leaflet/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+var redIcon = new L.Icon({
+    iconUrl: './leaflet/images/marker-icon-red-2x.png',
+    shadowUrl: './leaflet/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+var greenIcon = new L.Icon({
+    iconUrl: './leaflet/images/marker-icon-green-2x.png',
+    shadowUrl: './leaflet/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+var greyIcon = new L.Icon({
+    iconUrl: './leafletmarker-icon-gray-2x.png',
+    shadowUrl: './leaflet/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
+
+var markers = [{ "latitude" : "13.027770", "longitude" : "77.762114", "text" : "Whitefiled Towers", "icon" : blueIcon },
+{ "latitude" : "12.996360", "longitude" : "77.761818", "text" : "Metro", "icon" : greenIcon },
+];
+$.each(markers, function(index, marker) 
+{
+   L.marker([marker.latitude, marker.longitude], {icon: marker.icon}).addTo(leafletMap).bindPopup(marker.text).openPopup();
+});
+});
+</script>
+</head>
+<body>
+<div id="FlexGrid1">
+<div class="header">
+<div id="wb_EmbeddedPage2" style="display:inline-block;width:970px;height:32px;z-index:2;">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_PanelMenu1" style="display:inline-block;width:27px;height:32px;text-align:center;z-index:0;">
+<a href="#PanelMenu1_markup" id="PanelMenu1">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="PanelMenu1_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html" target="_self" title="Home">Home</a></li>
+   <li role="menuitem"><a href="./About.html" target="_self" title="About">About</a></li>
+   <li role="menuitem"><a href="./Partners.html" target="_self" title="Partners">Partners</a></li>
+   <li role="menuitem"><a href="./Facilities.html" target="_self" title="Facilities">Facilities</a></li>
+   <li role="menuitem"><a href="./Register.html" target="_self" title="Register">Register</a></li>
+   <li role="menuitem"><a href="./Clubs.html" target="_self" title="Clubs">Clubs</a></li>
+   <li role="menuitem"><a href="./Contact.html" target="_self" title="Contact">Contact</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="row1">
+<div id="wb_Text2">
+<span style="color:#000000;font-family:Corbel;font-size:27px;"><br></span><span style="color:#000000;font-family:'Futura LT';font-size:27px;">Contact</span><span style="color:#000000;font-family:Corbel;font-size:27px;"><br><br></span>
+</div>
+</div>
+<div class="main4">
+</div>
+<div class="main5">
+<table style="display:table;width:288px;height:186px;" id="Table1">
+<tr>
+<td class="cell0"><div id="wb_FontAwesomeIcon3" style="display:inline-block;width:28px;height:36px;text-align:center;z-index:4;">
+<div id="FontAwesomeIcon3"><i class="fa fa-envelope"></i></div>
+</div>
+</td>
+<td class="cell1"><div id="wb_Text3">
+<span style="color:#A9A9A9;"><a href="mailto:info@whitefieldtowers.com">info@whitefieldtowers.com</a></span>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell2"><div id="wb_FontAwesomeIcon6" style="display:inline-block;width:28px;height:36px;text-align:center;z-index:6;">
+<div id="FontAwesomeIcon6"><i class="fa fa-phone"></i></div>
+</div>
+</td>
+<td class="cell3"><div id="wb_Text5">
+<span style="color:#A9A9A9;">&nbsp; +91 (080) 41320202 </span>
+</div>
+</td>
+</tr>
+<tr>
+<td class="cell4"><div id="wb_FontAwesomeIcon7" style="display:inline-block;width:28px;height:36px;text-align:center;z-index:8;">
+<div id="FontAwesomeIcon7"><i class="fa fa-map-marker"></i></div>
+</div>
+</td>
+<td class="cell5"><div id="wb_Text4">
+<span style="color:#A9A9A9;">11, Gangadhara Chetty Road, Sivanchetty Garden, Ulsoor, Bengaluru, Karnataka 560042</span>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="main7">
+</div>
+<div class="row2">
+<div id="wb_Divider1">
+<div id="Divider1-overlay"></div>
+<div id="Divider1">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine1" style="display:block;width: 100%;z-index:11;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="main8">
+<div id="wb_Extension1" style="display:inline-block;width:710px;height:446px;z-index:13;">
+<div id="Extension1" style="position:relative;display:block;width:100%;height:446px"></div>
+</div>
+</div>
+<div class="ft">
+<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:853px;width:100%;height:19.6%;z-index:23;">
+<div id="Layer1_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Divider3">
+<hr id="DividerLine3" style="display:block;">
+</div>
+<div id="wb_Image1" style="position:absolute;left:461px;top:19px;width:48px;height:111px;z-index:17;">
+<img src="images/newlogo.png" id="Image1" alt=""></div>
+<div id="wb_FontAwesomeIcon5" style="position:absolute;left:405px;top:163px;width:22px;height:23px;text-align:center;z-index:18;">
+<div id="FontAwesomeIcon5"><i class="fa fa-phone"></i></div></div>
+<div id="wb_FontAwesomeIcon1" style="position:absolute;left:477px;top:163px;width:37px;height:22px;text-align:center;z-index:19;">
+<div id="FontAwesomeIcon1"><i class="fa fa-facebook-official"></i></div></div>
+<div id="wb_FontAwesomeIcon2" style="position:absolute;left:436px;top:164px;width:41px;height:21px;text-align:center;z-index:20;">
+<div id="FontAwesomeIcon2"><i class="fa fa-linkedin-square"></i></div></div>
+<div id="wb_FontAwesomeIcon4" style="position:absolute;left:515px;top:163px;width:49px;height:22px;text-align:center;z-index:21;">
+<div id="FontAwesomeIcon4"><i class="fa fa-twitter"></i></div></div>
+<div id="wb_Text1" style="position:absolute;left:0px;top:134px;width:970px;height:14px;text-align:center;z-index:22;">
+<span style="color:#C0C0C0;"> Copyright © 2018 - 2019 Whitefield Towers</span></div>
+</div>
+</div>
+
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,2885 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Article9
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article9 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article9 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article9 .blogsubject, #Article9 .blogsubject a:link, #Article9 .blogsubject a:visited, #Article9 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article9 .blogcomments, #Article9 .blogcomments a:link, #Article9 .blogcomments a:visited, #Article9 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article9 .blogcomments
+{
+   text-decoration: none;
+}
+#Article9 .no-thumb
+{
+   display: none;
+}
+#Article9 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article9 .blogthumbnail
+{
+   display: block;
+}
+#Article9 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article9 .blogcaption
+{
+   padding: 9px;
+}
+#Article9 .blogdate, #Article9 .blogcomments
+{
+   display: none;
+}
+#Article9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article1
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article1 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article1 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article1 .blogsubject, #Article1 .blogsubject a:link, #Article1 .blogsubject a:visited, #Article1 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article1 .blogcomments, #Article1 .blogcomments a:link, #Article1 .blogcomments a:visited, #Article1 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article1 .blogcomments
+{
+   text-decoration: none;
+}
+#Article1 .no-thumb
+{
+   display: none;
+}
+#Article1 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article1 .blogthumbnail
+{
+   display: block;
+}
+#Article1 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article1 .blogcaption
+{
+   padding: 9px;
+}
+#Article1 .blogdate, #Article1 .blogcomments
+{
+   display: none;
+}
+#Article1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#FlexGrid1
+{
+   display: grid;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+   grid-template-areas:
+      "header header header header"
+      "row1 row1 row1 row1"
+      "main4 main5 main6 main7"
+      "row2 row2 row2 row2"
+      "main9 main9 main9 main9"
+      "main10 main10 main10 main10"
+      "main11 main11 main11 main11"
+      "main12 main12 main12 main12"
+      "ft ft ft ft";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .row1
+{
+   display: flex;
+   grid-area: row1;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main4
+{
+   display: flex;
+   grid-area: main4;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main5
+{
+   display: flex;
+   grid-area: main5;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main6
+{
+   display: flex;
+   grid-area: main6;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main7
+{
+   display: flex;
+   grid-area: main7;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .row2
+{
+   display: flex;
+   grid-area: row2;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main9
+{
+   display: flex;
+   grid-area: main9;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main10
+{
+   display: flex;
+   grid-area: main10;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main11
+{
+   display: flex;
+   grid-area: main11;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main12
+{
+   display: flex;
+   grid-area: main12;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .ft
+{
+   display: flex;
+   grid-area: ft;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#Divider3
+{
+   display: -webkit-flex;
+   display: flex;
+   padding: 5px 0px 8px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   font-size: 0px;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#DividerLine3
+{
+   border-color: #D3D3D3;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 5px 0px 0px 0px;
+   padding: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 11px;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon2
+{
+   height: 21px;
+   width: 41px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #696969;
+   display: inline-block;
+   font-size: 21px;
+   line-height: 21px;
+   vertical-align: middle;
+   width: 17px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #337AB7;
+}
+#wb_FontAwesomeIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon4
+{
+   height: 22px;
+   width: 49px;
+}
+#FontAwesomeIcon4 i
+{
+   color: #696969;
+   display: inline-block;
+   font-size: 22px;
+   line-height: 22px;
+   vertical-align: middle;
+   width: 19px;
+}
+#wb_FontAwesomeIcon4:hover i
+{
+   color: #337AB7;
+}
+#wb_FontAwesomeIcon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon5:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon5
+{
+   height: 23px;
+   width: 22px;
+}
+#FontAwesomeIcon5 i
+{
+   color: #696969;
+   display: inline-block;
+   font-size: 22px;
+   line-height: 23px;
+   vertical-align: middle;
+   width: 16px;
+}
+#wb_FontAwesomeIcon5:hover i
+{
+   color: #337AB7;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon1
+{
+   height: 22px;
+   width: 37px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #696969;
+   display: inline-block;
+   font-size: 22px;
+   line-height: 22px;
+   vertical-align: middle;
+   width: 17px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #337AB7;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 0px;
+   border-radius: 0;
+   box-shadow: none;
+}
+#PanelMenu1_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   width: 100%;
+   z-index: 9999;
+}
+#PanelMenu1_markup li a
+{
+   color: #696969;
+   border: 0px solid #2E2E2E;
+   background-color: #F5F5F5;
+   font-family: "Futura LT";
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#wb_PanelMenu1 a
+{
+   color: #FFFFFF;
+   border: 1px solid transparent;
+   background-color: #000000;
+   font-family: "Futura LT";
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#PanelMenu1_markup li a:hover
+{
+   color: #D3D3D3;
+   background-color: #FFFFFF;
+   border: 0px solid #2E2E2E;
+}
+#wb_PanelMenu1 a:hover
+{
+   color: #808080;
+   background-color: #000000;
+   border: 1px solid transparent;
+}
+#PanelMenu1_panel
+{
+   background-color: #F5F5F5;
+   overflow-y: auto;
+}
+#PanelMenu1 .line
+{
+   width: 16px;
+   height: 3px;
+   background: #FFFFFF;
+   display: block;
+   margin: 3px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#PanelMenu1 .line:first-child
+{
+   margin-top: 8px;
+}
+#PanelMenu1.open .line:nth-child(1)
+{
+   -webkit-transform: translateY(6px) rotate(45deg);
+   -moz-transform: translateY(6px) rotate(45deg);
+   transform: translateY(6px) rotate(45deg);
+}
+#PanelMenu1.open .line:nth-child(2)
+{
+   opacity: 0;
+}
+#PanelMenu1.open .line:nth-child(3)
+{
+   -webkit-transform: translateY(-6px) rotate(-45deg);
+   -moz-transform: translateY(-6px) rotate(-45deg);
+   transform: translateY(-6px) rotate(-45deg);
+}
+#PanelMenu1
+{
+   line-height: 32px;
+   width: 27px;
+   height: 32px;
+   position: absolute;
+   z-index: 999;
+}
+#wb_Divider1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: rgba(255,255,255,0.39);
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#Divider1
+{
+   box-sizing: border-box;
+   padding: 10px 0px 20px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#Divider1 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#Divider1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#Divider1 > .row > .col-1
+{
+   float: left;
+}
+#Divider1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#Divider1:before,
+#Divider1:after,
+#Divider1 .row:before,
+#Divider1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#Divider1:after,
+#Divider1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#Divider1 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#Divider1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #FFFFFF;
+   opacity: 0.39;
+}
+#DividerLine1
+{
+   border-color: #D3D3D3;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0px 3px 20px 3px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -3px;
+   margin-left: -3px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 3px;
+   padding-left: 3px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: right;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Article2
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article2 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article2 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article2 .blogsubject, #Article2 .blogsubject a:link, #Article2 .blogsubject a:visited, #Article2 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article2 .blogcomments, #Article2 .blogcomments a:link, #Article2 .blogcomments a:visited, #Article2 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article2 .blogcomments
+{
+   text-decoration: none;
+}
+#Article2 .no-thumb
+{
+   display: none;
+}
+#Article2 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article2 .blogthumbnail
+{
+   display: block;
+}
+#Article2 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article2 .blogcaption
+{
+   padding: 9px;
+}
+#Article2 .blogdate, #Article2 .blogcomments
+{
+   display: none;
+}
+#Article2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article3
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article3 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article3 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article3 .blogsubject, #Article3 .blogsubject a:link, #Article3 .blogsubject a:visited, #Article3 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article3 .blogcomments, #Article3 .blogcomments a:link, #Article3 .blogcomments a:visited, #Article3 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article3 .blogcomments
+{
+   text-decoration: none;
+}
+#Article3 .no-thumb
+{
+   display: none;
+}
+#Article3 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article3 .blogthumbnail
+{
+   display: block;
+}
+#Article3 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article3 .blogcaption
+{
+   padding: 9px;
+}
+#Article3 .blogdate, #Article3 .blogcomments
+{
+   display: none;
+}
+#Article3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article4
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article4 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article4 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article4 .blogsubject, #Article4 .blogsubject a:link, #Article4 .blogsubject a:visited, #Article4 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article4 .blogcomments, #Article4 .blogcomments a:link, #Article4 .blogcomments a:visited, #Article4 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article4 .blogcomments
+{
+   text-decoration: none;
+}
+#Article4 .no-thumb
+{
+   display: none;
+}
+#Article4 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article4 .blogthumbnail
+{
+   display: block;
+}
+#Article4 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article4 .blogcaption
+{
+   padding: 9px;
+}
+#Article4 .blogdate, #Article4 .blogcomments
+{
+   display: none;
+}
+#Article4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article5
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article5 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article5 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article5 .blogsubject, #Article5 .blogsubject a:link, #Article5 .blogsubject a:visited, #Article5 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article5 .blogcomments, #Article5 .blogcomments a:link, #Article5 .blogcomments a:visited, #Article5 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article5 .blogcomments
+{
+   text-decoration: none;
+}
+#Article5 .no-thumb
+{
+   display: none;
+}
+#Article5 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article5 .blogthumbnail
+{
+   display: block;
+}
+#Article5 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article5 .blogcaption
+{
+   padding: 9px;
+}
+#Article5 .blogdate, #Article5 .blogcomments
+{
+   display: none;
+}
+#Article5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article6
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article6 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article6 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article6 .blogsubject, #Article6 .blogsubject a:link, #Article6 .blogsubject a:visited, #Article6 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article6 .blogcomments, #Article6 .blogcomments a:link, #Article6 .blogcomments a:visited, #Article6 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article6 .blogcomments
+{
+   text-decoration: none;
+}
+#Article6 .no-thumb
+{
+   display: none;
+}
+#Article6 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article6 .blogthumbnail
+{
+   display: block;
+}
+#Article6 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article6 .blogcaption
+{
+   padding: 9px;
+}
+#Article6 .blogdate, #Article6 .blogcomments
+{
+   display: none;
+}
+#Article6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article7
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article7 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article7 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article7 .blogsubject, #Article7 .blogsubject a:link, #Article7 .blogsubject a:visited, #Article7 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article7 .blogcomments, #Article7 .blogcomments a:link, #Article7 .blogcomments a:visited, #Article7 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article7 .blogcomments
+{
+   text-decoration: none;
+}
+#Article7 .no-thumb
+{
+   display: none;
+}
+#Article7 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article7 .blogthumbnail
+{
+   display: block;
+}
+#Article7 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article7 .blogcaption
+{
+   padding: 9px;
+}
+#Article7 .blogdate, #Article7 .blogcomments
+{
+   display: none;
+}
+#Article7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article8
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article8 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article8 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article8 .blogsubject, #Article8 .blogsubject a:link, #Article8 .blogsubject a:visited, #Article8 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article8 .blogcomments, #Article8 .blogcomments a:link, #Article8 .blogcomments a:visited, #Article8 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article8 .blogcomments
+{
+   text-decoration: none;
+}
+#Article8 .no-thumb
+{
+   display: none;
+}
+#Article8 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article8 .blogthumbnail
+{
+   display: block;
+}
+#Article8 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article8 .blogcaption
+{
+   padding: 9px;
+}
+#Article8 .blogdate, #Article8 .blogcomments
+{
+   display: none;
+}
+#Article8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#Article10
+{
+   background-color: transparent;
+   border: 1px solid #000000;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+}
+#Article10 .blogitem
+{
+   margin-bottom: 6px;
+   padding: 0px;
+   text-align: center;
+}
+#Article10 .blogdate
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Article10 .blogsubject, #Article10 .blogsubject a:link, #Article10 .blogsubject a:visited, #Article10 .blogsubject a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 19px;
+   color: #666666;
+   font-style: italic;
+   text-decoration: none;
+}
+#Article10 .blogcomments, #Article10 .blogcomments a:link, #Article10 .blogcomments a:visited, #Article10 .blogcomments a:hover
+{
+   font-family: "Trebuchet MS";
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Article10 .blogcomments
+{
+   text-decoration: none;
+}
+#Article10 .no-thumb
+{
+   display: none;
+}
+#Article10 img
+{
+   border-width: 0;
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+#Article10 .blogthumbnail
+{
+   display: block;
+}
+#Article10 .blogsubject
+{
+   margin-bottom: 32px;
+   margin-top: 12px;
+   padding: 0;
+   display: block;
+   font-family: Trebuchet MS;
+   font-size: 19px;
+   color: #666666;
+}
+#Article10 .blogcaption
+{
+   padding: 9px;
+}
+#Article10 .blogdate, #Article10 .blogcomments
+{
+   display: none;
+}
+#Article10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   font-family: "Futura Light";
+   font-weight: normal;
+   margin: 0;
+}
+#wb_FontAwesomeIcon1
+{
+   position: absolute;
+   left: 477px;
+   top: 163px;
+   width: 37px;
+   height: 22px;
+   text-align: center;
+   z-index: 22;
+}
+#Article6
+{
+   overflow: hidden;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 0px;
+   top: 134px;
+   width: 970px;
+   height: 14px;
+   text-align: center;
+   z-index: 25;
+}
+#wb_FontAwesomeIcon2
+{
+   position: absolute;
+   left: 436px;
+   top: 164px;
+   width: 41px;
+   height: 21px;
+   text-align: center;
+   z-index: 23;
+}
+#Article7
+{
+   overflow: hidden;
+}
+#Article8
+{
+   overflow: hidden;
+}
+#wb_FontAwesomeIcon4
+{
+   position: absolute;
+   left: 515px;
+   top: 163px;
+   width: 49px;
+   height: 22px;
+   text-align: center;
+   z-index: 24;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 461px;
+   top: 19px;
+   width: 48px;
+   height: 111px;
+   z-index: 20;
+}
+#Article9
+{
+   overflow: hidden;
+}
+#wb_FontAwesomeIcon5
+{
+   position: absolute;
+   left: 405px;
+   top: 163px;
+   width: 22px;
+   height: 23px;
+   text-align: center;
+   z-index: 21;
+}
+#Layer1
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 1162px;
+   width: 100%;
+   height: 19.6%;
+   z-index: 26;
+}
+#DividerLine1
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#DividerLine3
+{
+   display: block;
+}
+#Layer1_Container
+{
+   width: 970px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Article10
+{
+   overflow: hidden;
+}
+#wb_PanelMenu1
+{
+   display: inline-block;
+   width: 27px;
+   height: 32px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_EmbeddedPage2
+{
+   display: inline-block;
+   width: 970px;
+   height: 32px;
+   z-index: 2;
+}
+#Article1
+{
+   overflow: hidden;
+}
+#Article2
+{
+   overflow: hidden;
+}
+#Article3
+{
+   overflow: hidden;
+}
+#Article4
+{
+   overflow: hidden;
+}
+#Article5
+{
+   overflow: hidden;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Article9
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article9 .blogcolumn
+{
+   width: 100%;
+}
+#Article9 .visible-col1
+{
+   display: block;
+}
+#Article1
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article1 .blogcolumn
+{
+   width: 100%;
+}
+#Article1 .visible-col1
+{
+   display: block;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#FlexGrid1
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+   grid-template-areas:
+      "header header header header"
+      "row1 row1 row1 row1"
+      "main4 main5 main6 main7"
+      "row2 row2 row2 row2"
+      "main9 main9 main9 main9"
+      "main10 main10 main10 main10"
+      "main11 main11 main11 main11"
+      "main12 main12 main12 main12"
+      "ft ft ft ft";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .main2
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main4
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main9
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main3
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main5
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .row2
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main6
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main7
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .row1
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .ft
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main10
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#FlexGrid1 .main11
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main12
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main1
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#EmbeddedPage1
+{
+   width: 485px;
+   height: 148px;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Divider3
+{
+   visibility: visible;
+   display: flex;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Divider3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 5px 0px 8px 0px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#Layer1
+{
+   left: 0px;
+   top: 2247px;
+   visibility: visible;
+   display: inline;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Layer1
+{
+   width: 101.0417%;
+}
+#Layer1_Container
+{
+   width: 485px;
+}
+#wb_Image1
+{
+   left: 221px;
+   top: 14px;
+   width: 42px;
+   height: 95px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#DividerLine3
+{
+   width: auto;
+   height: -4px;
+   visibility: visible;
+   display: inline;
+   margin: 5px 0px 0px 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#DividerLine3
+{
+   border-color: #D3D3D3;
+   border-bottom-width: -9px;
+}
+#wb_Text1
+{
+   left: 0px;
+   top: 101px;
+   width: 480px;
+   height: 14px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-size: 11px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#wb_FontAwesomeIcon2
+{
+   left: 247px;
+   top: 116px;
+   width: 41px;
+   height: 21px;
+   visibility: visible;
+   display: inline;
+   color: #696969;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#FontAwesomeIcon2
+{
+   width: 41px;
+   height: 21px;
+}
+#FontAwesomeIcon2 i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 17px;
+}
+#wb_FontAwesomeIcon4
+{
+   left: 276px;
+   top: 116px;
+   width: 49px;
+   height: 22px;
+   visibility: visible;
+   display: inline;
+   color: #696969;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#FontAwesomeIcon4
+{
+   width: 49px;
+   height: 22px;
+}
+#FontAwesomeIcon4 i
+{
+   line-height: 22px;
+   font-size: 22px;
+   width: 19px;
+}
+#wb_FontAwesomeIcon5
+{
+   left: 188px;
+   top: 116px;
+   width: 22px;
+   height: 23px;
+   visibility: visible;
+   display: inline;
+   color: #696969;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#FontAwesomeIcon5
+{
+   width: 22px;
+   height: 23px;
+}
+#FontAwesomeIcon5 i
+{
+   line-height: 23px;
+   font-size: 22px;
+   width: 16px;
+}
+#wb_FontAwesomeIcon1
+{
+   left: 210px;
+   top: 116px;
+   width: 37px;
+   height: 22px;
+   visibility: visible;
+   display: inline;
+   color: #696969;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#FontAwesomeIcon1
+{
+   width: 37px;
+   height: 22px;
+}
+#FontAwesomeIcon1 i
+{
+   line-height: 22px;
+   font-size: 22px;
+   width: 17px;
+}
+#wb_EmbeddedPage2
+{
+   width: 480px;
+   height: 60px;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 0;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_PanelMenu1
+{
+   width: 27px;
+   height: 32px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#PanelMenu1
+{
+   line-height: 32px;
+   width: 27px;
+   height: 32px;
+}
+#PanelMenu1 .line:first-child
+{
+   margin-top: 5px;
+}
+#wb_Divider1
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: rgba(255,255,255,0.39);
+   background-image: none;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Divider1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#Divider1
+{
+   padding: 10px 0px 20px 0px;
+}
+#Divider1 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#Divider1 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#Divider1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#DividerLine1
+{
+   width: calc(100% - 0px);
+   height: 1px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#DividerLine1
+{
+   border-color: #D3D3D3;
+   border-bottom-width: 1px;
+}
+#wb_Text2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   padding: 0px 3px 20px 3px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -3px;
+   margin-left: -3px;
+}
+#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3, #LayoutGrid2 > .row > .col-4, #LayoutGrid2 > .row > .col-5
+{
+   padding-right: 3px;
+   padding-left: 3px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid2 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid2 > .row > .col-5
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Article2
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article2 .blogcolumn
+{
+   width: 100%;
+}
+#Article2 .visible-col1
+{
+   display: block;
+}
+#Article3
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article3 .blogcolumn
+{
+   width: 100%;
+}
+#Article3 .visible-col1
+{
+   display: block;
+}
+#Article4
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article4 .blogcolumn
+{
+   width: 100%;
+}
+#Article4 .visible-col1
+{
+   display: block;
+}
+#Article5
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article5 .blogcolumn
+{
+   width: 100%;
+}
+#Article5 .visible-col1
+{
+   display: block;
+}
+#Article6
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article6 .blogcolumn
+{
+   width: 100%;
+}
+#Article6 .visible-col1
+{
+   display: block;
+}
+#Article7
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article7 .blogcolumn
+{
+   width: 100%;
+}
+#Article7 .visible-col1
+{
+   display: block;
+}
+#Article8
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article8 .blogcolumn
+{
+   width: 100%;
+}
+#Article8 .visible-col1
+{
+   display: block;
+}
+}

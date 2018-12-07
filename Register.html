@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="wt8.css" rel="stylesheet">
+<link href="Register.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script>
+function ValidateTable2()
+{
+   var regexp;
+   var Combobox1 = document.getElementById('Combobox1');
+   if (!(Combobox1.disabled ||
+         Combobox1.style.display === 'none' ||
+         Combobox1.style.visibility === 'hidden'))
+   {
+      if (Combobox1.selectedIndex == 0)
+      {
+         alert("The first \"Interests\" option is not a valid selection.  Please choose one of the other options.");
+         Combobox1.focus();
+         return false;
+      }
+   }
+   return true;
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
+});
+</script>
+</head>
+<body>
+<div id="FlexGrid1">
+<div class="header">
+<div id="wb_EmbeddedPage2">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_PanelMenu1">
+<a href="#PanelMenu1_markup" id="PanelMenu1">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="PanelMenu1_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html" target="_self" title="Home">Home</a></li>
+   <li role="menuitem"><a href="./About.html" target="_self" title="About">About</a></li>
+   <li role="menuitem"><a href="./Partners.html" target="_self" title="Partners">Partners</a></li>
+   <li role="menuitem"><a href="./Facilities.html" target="_self" title="Facilities">Facilities</a></li>
+   <li role="menuitem"><a href="./Register.html" target="_self" title="Register">Register</a></li>
+   <li role="menuitem"><a href="./Clubs.html" target="_self" title="Clubs">Clubs</a></li>
+   <li role="menuitem"><a href="./Contact.html" target="_self" title="Contact">Contact</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="row1">
+<div id="wb_Text2">
+<span style="color:#000000;"><br>Registration Form<br><br></span>
+</div>
+</div>
+<div class="main4">
+</div>
+<div class="main5">
+</div>
+<div class="main6">
+</div>
+<div class="main7">
+</div>
+<div class="row2">
+<div id="wb_Divider1">
+<div id="Divider1-overlay"></div>
+<div id="Divider1">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine1">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="main9">
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="col-1">
+<div id="wb_EmbeddedPage3">
+<div id="wb_frmLayoutGrid1">
+<div id="frmLayoutGrid1">
+<div class="row">
+<div class="col-1">
+<table id="Table3">
+<tr>
+<td class="cell0"><span style="color:#4F4F4F;"> Email ID</span></td>
+</tr>
+<tr>
+<td class="cell1"><input type="text" id="Editbox1" name="Editbox1" value="" spellcheck="false">
+</td>
+</tr>
+<tr>
+<td class="cell0"><span style="color:#4F4F4F;"> Password</span></td>
+</tr>
+<tr>
+<td class="cell1"><input type="text" id="Editbox2" name="Editbox2" value="" spellcheck="false">
+</td>
+</tr>
+<tr>
+<td class="cell0"><span style="color:#4F4F4F;"> Mobile</span></td>
+</tr>
+<tr>
+<td class="cell1"><input type="text" id="Editbox3" name="Editbox3" value="" spellcheck="false">
+</td>
+</tr>
+<tr>
+<td class="cell0"><span style="color:#4F4F4F;"> Are you a Corporate Member ?</span></td>
+</tr>
+<tr>
+<td class="cell1"><select name="coporate" size="1" id="Combobox2">
+<option selected value="0">No</option>
+<option value="1">Yes</option>
+</select>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="formDivider3">
+<hr id="frmDividerLine3">
+<hr id="frmDividerLine4">
+</div>
+<div id="wb_frmLayoutGrid2">
+<div id="frmLayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading1">
+<h5 id="Heading1"> Select Interest Topics</h5>
+</div>
+<table id="Table2">
+<tr>
+<td class="cell0"><span style="color:#000000;"> </span></td>
+</tr>
+<tr>
+<td class="cell1"><select name="Interests" multiple size="8" id="Combobox1">
+<optgroup label="Use Ctrl  + Click for multiple">
+</optgroup>
+<optgroup label="">
+<option value="1">Workspaces</option>
+<option value="2">Managed Services</option>
+<option value="3">Community & Groups</option>
+<option value="4">Events & Promotions</option>
+<option value="5">Jobs & Assignments</option>
+<option value="6">Others (specify below)</option>
+</optgroup>
+</select>
+<textarea name="TextArea1" id="TextArea2" rows="4" cols="45" spellcheck="false"></textarea>
+</td>
+</tr>
+<tr>
+<td class="cell1"><div id="wb_Checkbox8">
+<input type="checkbox" id="Checkbox8" name="Checkbox8" value="on" checked><label for="Checkbox8"></label>
+</div>
+<label class="labelFont" for="Checkbox8" id="Label12">I Accept Whitefield Towers Terms & Conditions</label>
+</td>
+</tr>
+<tr>
+<td class="cell2"><span style="color:#000000;"> </span></td>
+</tr>
+<tr>
+<td class="cell1"><input type="submit" id="Button1" name="" value="Submit">
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ft">
+<div id="Layer1">
+<div id="Layer1_Container">
+<div id="Divider3">
+<hr id="DividerLine3">
+</div>
+<div id="wb_Image1">
+<img src="images/newlogo.png" id="Image1" alt=""></div>
+<div id="wb_FontAwesomeIcon5">
+<div id="FontAwesomeIcon5"><i class="fa fa-phone"></i></div></div>
+<div id="wb_FontAwesomeIcon1">
+<div id="FontAwesomeIcon1"><i class="fa fa-facebook-official"></i></div></div>
+<div id="wb_FontAwesomeIcon2">
+<div id="FontAwesomeIcon2"><i class="fa fa-linkedin-square"></i></div></div>
+<div id="wb_FontAwesomeIcon4">
+<div id="FontAwesomeIcon4"><i class="fa fa-twitter"></i></div></div>
+<div id="wb_Text1">
+<span style="color:#C0C0C0;"> Copyright © 2018 - 2019 Whitefield Towers</span></div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
