@@ -648,7 +648,7 @@ body
    font-size: 11px;
    margin: 0;
    padding: 0;
-   text-align: left;
+   text-align: center;
 }
 #wb_FontAwesomeIcon2
 {
@@ -682,8 +682,8 @@ body
 }
 #wb_FontAwesomeIcon4
 {
-   left: 46px;
-   top: 51px;
+   left: 245px;
+   top: 24px;
    width: 49px;
    height: 22px;
    visibility: visible;
@@ -742,8 +742,8 @@ body
 }
 #wb_FontAwesomeIcon1
 {
-   left: 10px;
-   top: 50px;
+   left: 209px;
+   top: 23px;
    width: 37px;
    height: 22px;
    visibility: visible;
