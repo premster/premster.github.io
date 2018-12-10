@@ -204,7 +204,7 @@ body
    padding: 0;
    font-size: 0px;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+   grid-template-rows: 50px auto auto auto auto auto 2px 2px auto;
    grid-template-areas:
       "header header header header"
       "row1 row1 row1 row1"
@@ -220,7 +220,7 @@ body
 {
    display: flex;
    grid-area: header;
-   background-color: #000000;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    -webkit-flex-direction: row;
@@ -389,8 +389,8 @@ body
    flex-direction: row;
    -webkit-flex-wrap: nowrap;
    flex-wrap: nowrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: flex-start;
@@ -407,8 +407,8 @@ body
    flex-direction: row;
    -webkit-flex-wrap: nowrap;
    flex-wrap: nowrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: flex-start;
@@ -763,9 +763,9 @@ body
 }
 #PanelMenu1_markup li a
 {
-   color: #696969;
+   color: #D3D3D3;
    border: 0px solid #2E2E2E;
-   background-color: #F5F5F5;
+   background-color: #4F4F4F;
    font-family: "Futura LT";
    font-weight: normal;
    font-size: 13px;
@@ -776,9 +776,10 @@ body
 }
 #wb_PanelMenu1 a
 {
-   color: #FFFFFF;
+   color: #696969;
    border: 1px solid transparent;
-   background-color: #000000;
+   background-color: #FFFFFF;
+   background-color: rgba(255,255,255,0.00);
    font-family: "Futura LT";
    font-weight: normal;
    font-size: 13px;
@@ -790,25 +791,25 @@ body
 #PanelMenu1_markup li a:hover
 {
    color: #D3D3D3;
-   background-color: #FFFFFF;
+   background-color: #000000;
    border: 0px solid #2E2E2E;
 }
 #wb_PanelMenu1 a:hover
 {
    color: #808080;
-   background-color: #000000;
+   background-color: #DCDCDC;
    border: 1px solid transparent;
 }
 #PanelMenu1_panel
 {
-   background-color: #F5F5F5;
+   background-color: #4F4F4F;
    overflow-y: auto;
 }
 #PanelMenu1 .line
 {
    width: 16px;
    height: 3px;
-   background: #FFFFFF;
+   background: #696969;
    display: block;
    margin: 3px auto;
    -webkit-transition: all 0.3s ease-in-out;
@@ -950,6 +951,12 @@ body
    padding: 0;
    margin: 0;
    text-align: center;
+}
+#wb_Text2
+{
+   font-family: Corbel;
+   font-weight: normal;
+   font-size: 27px;
 }
 #wb_Text2 div
 {
@@ -1871,7 +1878,7 @@ body
    position: absolute;
    text-align: center;
    left: 0px;
-   top: 1162px;
+   top: 1063px;
    width: 100%;
    height: 19.6%;
    z-index: 26;
@@ -2000,7 +2007,7 @@ body
    grid-column-gap: 0px;
    grid-row-gap: 0px;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 50px auto auto auto auto auto auto auto auto;
+   grid-template-rows: 50px auto auto auto auto 1px 1px 1px auto;
    grid-template-areas:
       "header header header header"
       "row1 row1 row1 row1"
@@ -2015,7 +2022,7 @@ body
 #FlexGrid1 .header
 {
    display: flex;
-   background-color: #000000;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    -webkit-flex-direction: row;
@@ -2311,7 +2318,7 @@ body
 #Layer1
 {
    left: 0px;
-   top: 2247px;
+   top: 1994px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -2508,7 +2515,7 @@ body
 #wb_EmbeddedPage2
 {
    width: 480px;
-   height: 60px;
+   height: 32px;
    visibility: visible;
    display: inline;
    -webkit-flex-grow: 0;
@@ -2655,8 +2662,12 @@ body
 }
 #wb_Text2
 {
+   font-family: Corbel;
+   font-weight: normal;
+   font-size: 21px;
    margin: 0;
    padding: 0;
+   text-align: center;
 }
 #wb_LayoutGrid2
 {
@@ -2701,7 +2712,7 @@ body
    width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: center;
+   text-align: right;
 }
 #LayoutGrid2 > .row > .col-2
 {
@@ -2725,7 +2736,7 @@ body
    width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid2 > .row > .col-5
 {
@@ -2879,6 +2890,27 @@ body
    width: 100%;
 }
 #Article8 .visible-col1
+{
+   display: block;
+}
+#Article10
+{
+   visibility: visible;
+   display: block;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: "Futura Light";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Article10 .blogcolumn
+{
+   width: 100%;
+}
+#Article10 .visible-col1
 {
    display: block;
 }

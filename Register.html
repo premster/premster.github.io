@@ -11,25 +11,6 @@
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script>
-function ValidateTable2()
-{
-   var regexp;
-   var Combobox1 = document.getElementById('Combobox1');
-   if (!(Combobox1.disabled ||
-         Combobox1.style.display === 'none' ||
-         Combobox1.style.visibility === 'hidden'))
-   {
-      if (Combobox1.selectedIndex == 0)
-      {
-         alert("The first \"Interests\" option is not a valid selection.  Please choose one of the other options.");
-         Combobox1.focus();
-         return false;
-      }
-   }
-   return true;
-}
-</script>
-<script>
 $(document).ready(function()
 {
    $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
@@ -104,6 +85,8 @@ $(document).ready(function()
 <div id="frmLayoutGrid1">
 <div class="row">
 <div class="col-1">
+</div>
+<div class="col-2">
 <table id="Table3">
 <tr>
 <td class="cell0"><span style="color:#4F4F4F;"> Email ID</span></td>
@@ -138,6 +121,8 @@ $(document).ready(function()
 </tr>
 </table>
 </div>
+<div class="col-3">
+</div>
 </div>
 </div>
 </div>
@@ -149,15 +134,12 @@ $(document).ready(function()
 <div id="frmLayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_Heading1">
-<h5 id="Heading1"> Select Interest Topics</h5>
 </div>
-<table id="Table2">
-<tr>
-<td class="cell0"><span style="color:#000000;"> </span></td>
-</tr>
-<tr>
-<td class="cell1"><select name="Interests" multiple size="8" id="Combobox1">
+<div class="col-2">
+<div id="wb_Text1">
+<span style="color:#4F4F4F;font-family:'Futura Light';font-size:19px;"><strong>Select Interests Below</strong></span>
+</div>
+<select name="Interests" multiple size="9" id="Combobox1">
 <optgroup label="Use Ctrl  + Click for multiple">
 </optgroup>
 <optgroup label="">
@@ -169,24 +151,14 @@ $(document).ready(function()
 <option value="6">Others (specify below)</option>
 </optgroup>
 </select>
-<textarea name="TextArea1" id="TextArea2" rows="4" cols="45" spellcheck="false"></textarea>
-</td>
-</tr>
-<tr>
-<td class="cell1"><div id="wb_Checkbox8">
+<textarea name="TextArea1" id="TextArea2" rows="4" cols="28" spellcheck="false"></textarea>
+<div id="wb_Checkbox8">
 <input type="checkbox" id="Checkbox8" name="Checkbox8" value="on" checked><label for="Checkbox8"></label>
 </div>
-<label class="labelFont" for="Checkbox8" id="Label12">I Accept Whitefield Towers Terms & Conditions</label>
-</td>
-</tr>
-<tr>
-<td class="cell2"><span style="color:#000000;"> </span></td>
-</tr>
-<tr>
-<td class="cell1"><input type="submit" id="Button1" name="" value="Submit">
-</td>
-</tr>
-</table>
+<label for="Checkbox8" id="Label12">I Accept Whitefield Towers Terms & Conditions</label>
+<input type="submit" id="Button1" name="" value="Submit">
+</div>
+<div class="col-3">
 </div>
 </div>
 </div>
