@@ -2490,16 +2490,16 @@ body
    top: 0px;
    width: 66px;
    height: 37px;
-   visibility: hidden;
-   display: none;
+   visibility: visible;
+   display: inline;
    margin: 0;
 }
 #Layer2
 {
    left: 5px;
    top: 99px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
    font-size: 8px;
    font-family: Arial;
    font-weight: normal;

@@ -21,20 +21,48 @@ var playerYouTube3;
 function onYouTubeIframeAPIReady() {
    playerYouTube2 = new YT.Player('YouTube2', {
       events: {
+         'onReady': onReadyYouTube2
       }
    });
    playerYouTube1 = new YT.Player('YouTube1', {
       events: {
+         'onStateChange': onStateChangeYouTube1
       }
    });
    playerYouTube5 = new YT.Player('YouTube5', {
       events: {
+         'onStateChange': onStateChangeYouTube5
       }
    });
    playerYouTube3 = new YT.Player('YouTube3', {
       events: {
+         'onStateChange': onStateChangeYouTube3
       }
    });
+}
+function onReadyYouTube2(event) {
+   event.target.playVideo();;
+}
+function onStateChangeYouTube1(event) {
+   switch(event.data) {
+      case -1:
+         event.target.playVideo();;
+         break;
+   }
+}
+function onStateChangeYouTube5(event) {
+   switch(event.data) {
+      case -1:
+         event.target.playVideo();;
+         break;
+   }
+}
+function onStateChangeYouTube3(event) {
+   switch(event.data) {
+      case -1:
+         event.target.playVideo();;
+         break;
+   }
 }
 </script>
 <script src="wwb14.min.js"></script>
