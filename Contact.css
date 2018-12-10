@@ -867,8 +867,8 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   width: 21.88%;
-   height: 20.51%;
+   width: 22.62%;
+   height: 21.25%;
    font-size: 0;
 }
 #Table1 .cell1
@@ -877,7 +877,7 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   height: 20.51%;
+   height: 21.25%;
    font-size: 0;
 }
 #Table1 .cell2
@@ -886,8 +886,8 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   width: 21.88%;
-   height: 21.79%;
+   width: 22.62%;
+   height: 22.5%;
    font-size: 0;
 }
 #Table1 .cell3
@@ -896,7 +896,7 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   height: 21.79%;
+   height: 22.5%;
    font-size: 0;
 }
 #Table1 .cell4
@@ -905,8 +905,8 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   width: 21.88%;
-   height: 48.72%;
+   width: 22.62%;
+   height: 47.5%;
    font-size: 0;
 }
 #Table1 .cell5
@@ -915,7 +915,7 @@ body
    background-image: none;
    text-align: left;
    vertical-align: middle;
-   height: 48.72%;
+   height: 47.5%;
    font-size: 0;
 }
 #wb_FontAwesomeIcon3
@@ -1105,7 +1105,7 @@ body
    position: absolute;
    text-align: center;
    left: 0px;
-   top: 823px;
+   top: 827px;
    width: 100%;
    height: 19.6%;
    z-index: 23;
@@ -1127,8 +1127,8 @@ body
 #Table1
 {
    display: table;
-   width: 320px;
-   height: 156px;
+   width: 336px;
+   height: 160px;
 }
 #DividerLine3
 {
@@ -1437,7 +1437,7 @@ body
 #Layer1
 {
    left: 0px;
-   top: 718px;
+   top: 703px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -1762,7 +1762,7 @@ body
 #wb_Extension1
 {
    width: 472px;
-   height: 349px;
+   height: 330px;
    visibility: visible;
    display: inline;
    -webkit-flex-grow: 0;
@@ -1909,8 +1909,8 @@ body
 }
 #Table1
 {
-   width: 240px;
-   height: 146px;
+   width: 241px;
+   height: 150px;
    visibility: visible;
    display: table;
    font-size: 8px;
@@ -2326,7 +2326,7 @@ body
 #Layer1
 {
    left: 0px;
-   top: 708px;
+   top: 689px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -2744,7 +2744,7 @@ body
 #wb_Extension1
 {
    width: 306px;
-   height: 336px;
+   height: 313px;
    visibility: visible;
    display: inline;
    -webkit-flex-grow: 0;
@@ -2892,7 +2892,7 @@ body
 #Table1
 {
    width: 158px;
-   height: 148px;
+   height: 152px;
    visibility: visible;
    display: table;
    font-size: 8px;
